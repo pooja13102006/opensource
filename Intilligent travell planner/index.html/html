@@ -95,13 +95,27 @@
         const mockFlights = [
             { airline: "Airline A", price: 250, departure: "10:00 AM", arrival: "2:00 PM", url: "https://example.com" },
             { airline: "Airline B", price: 300, departure: "12:00 PM", arrival: "4:00 PM", url: "https://example.com" },
-            { airline: "Airline C", price: 200, departure: "6:00 AM", arrival: "10:00 AM", url: "https://example.com" }
+            { airline: "Airline C", price: 200, departure: "6:00 AM", arrival: "10:00 AM", url: "https://example.com" },
+            { airline: "Airline D", price: 280, departure: "9:00 AM", arrival: "1:00 PM", url: "https://example.com" },
+            { airline: "Airline E", price: 220, departure: "11:00 AM", arrival: "3:00 PM", url: "https://example.com" },
+            { airline: "Airline F", price: 310, departure: "8:00 AM", arrival: "12:00 PM", url: "https://example.com" },
+            { airline: "Airline G", price: 270, departure: "2:00 PM", arrival: "6:00 PM", url: "https://example.com" },
+            { airline: "Airline H", price: 240, departure: "5:00 PM", arrival: "9:00 PM", url: "https://example.com" },
+            { airline: "Airline I", price: 260, departure: "7:00 AM", arrival: "11:00 AM", url: "https://example.com" },
+            { airline: "Airline J", price: 230, departure: "3:00 PM", arrival: "7:00 PM", url: "https://example.com" }
         ];
 
         const mockHotels = [
             { name: "Hotel Paradise", price: 150, rating: 4.5, location: "Downtown", image: "https://via.placeholder.com/200" },
             { name: "Luxury Inn", price: 200, rating: 4.0, location: "Beachfront", image: "https://via.placeholder.com/200" },
-            { name: "Budget Stay", price: 80, rating: 3.5, location: "City Center", image: "https://via.placeholder.com/200" }
+            { name: "Budget Stay", price: 80, rating: 3.5, location: "City Center", image: "https://via.placeholder.com/200" },
+            { name: "Ocean View Hotel", price: 180, rating: 4.2, location: "Seaside", image: "https://via.placeholder.com/200" },
+            { name: "Mountain Retreat", price: 130, rating: 4.1, location: "Hillside", image: "https://via.placeholder.com/200" },
+            { name: "Urban Comfort", price: 170, rating: 4.3, location: "Metropolitan Area", image: "https://via.placeholder.com/200" },
+            { name: "Countryside Inn", price: 90, rating: 4.0, location: "Outskirts", image: "https://via.placeholder.com/200" },
+            { name: "City Lights Hotel", price: 140, rating: 4.4, location: "City Center", image: "https://via.placeholder.com/200" },
+            { name: "Cozy Nest", price: 100, rating: 3.9, location: "Suburbs", image: "https://via.placeholder.com/200" },
+            { name: "Vista Lodge", price: 160, rating: 4.2, location: "Hilltop", image: "https://via.placeholder.com/200" }
         ];
 
         function findDeals() {
